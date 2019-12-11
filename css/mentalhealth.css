@@ -1,0 +1,757 @@
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.background {
+	width: 100%;
+	height: 4665px;
+	top: 100px;
+	background: url(../images/bgbrain.png) center no-repeat;
+	background-size: 2000px;
+	position: absolute;
+	z-index: -2;
+}
+
+.background2 {
+	width: 100%;
+	height: 1500px;
+	top: 5700px;
+	left: -550px;
+	background: url(../images/bglight.png) center no-repeat;
+	background-size: 1000px;
+	position: absolute;
+	z-index: -2;
+}
+
+.container {
+	width: 1665px;
+	height: 7275px;
+	/*border: solid red 1px;*/
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	overflow: hidden;
+}
+
+.section {
+	width: 100%;
+	height: 900px;
+	position: relative;
+	top: 98px;
+	/*border: solid blue 2px;*/
+}
+
+/* header */
+
+.header {
+	width: 100%;
+	height: 98px;
+	background: #0081CC;
+	position: fixed;
+	z-index: 2;
+}
+
+.title {
+	padding: 35px;
+	font-size: 28px;
+	font-family: 'Rubik Mono One', sans-serif;
+	color: white; 
+	position: relative;
+}
+
+.navmenu {
+	width: 350px;
+	height: 100%;
+	position: fixed;
+	background: #DC867B;
+	right: 0px;
+	top: 0px;
+	z-index: 3;
+	display: none;
+}
+
+.nav {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	background-color: 
+	z-index: 5;
+}
+
+.navicon {
+	width: 30px;
+	top: -59px;
+	right: 45px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 5;
+	opacity: 0;
+}
+
+.navicon1 {
+	width: 30px;
+	top: -59px;
+	right: 45px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 5;
+	transform-origin: 50% 50%;
+}
+
+.navicon2 {
+	width: 30px;
+	top: -50.5px;
+	right: 45px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 5;
+}
+
+.navicon3 {
+	width: 30px;
+	top: -42px;
+	right: 45px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 5;
+	transform-origin: 50% 50%;
+}
+
+.navclose {
+	width: 30px;
+	top: 35px;
+	right: 45px;
+	position: fixed;
+	cursor: pointer;
+	z-index: 4;
+	opacity: 0;
+	display: none;
+}
+
+.genbutton {
+	width: 150px;
+	top: 173px;
+	right: 100px;
+	position: fixed;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	z-index: 4;
+	display: none;
+}
+
+.effectsbutton {
+	width: 150px;
+	top: 293px;
+	right:100px;
+	position: fixed;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	z-index: 4;
+	display: none;
+}
+
+.campusbutton {
+	width: 150px;
+	top: 413px;
+	right: 100px;
+	position: fixed;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	z-index: 4;
+	display: none;
+}
+
+.externalbutton {
+	width: 150px;
+	top: 533px;
+	right: 100px;
+	position: fixed;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	z-index: 4;
+	display: none;
+}
+
+.campaignsbutton {
+	width: 150px;
+	top: 653px;
+	right: 100px;
+	position: fixed;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	z-index: 4;
+	display: none;
+}
+
+/* end of header */
+/* section one */
+
+.hands {
+	width: 1400px;
+	height: 660.87px;
+	position: absolute;
+	top: 75px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.stat {
+	width: 1600px;
+	height: 100px;
+	position: absolute;
+	top: 350px;
+	left: 50%;
+	margin-left: -800px;
+	z-index: 1;
+	animation: stat_fade 2s;
+	animation-fill-mode: forwards;
+}
+
+.box1 {
+	width: 1500px;
+	height: 833.04px;
+	top: 25px;
+	left: -100px;
+	opacity: .5;
+	position: absolute;
+	z-index: -1;
+}
+
+/* end of section one */
+/* section two */
+
+.title2 {
+	width: 900px;
+	top: 50px;
+	left: 200px;
+	position: absolute;
+}
+
+.brain {
+	width: 650px;
+	height: 650px;
+	top: 7px;
+	left: 50px;
+	position: absolute;
+}
+
+.box2 {
+	width: 915px;
+	height: 650px;
+	top: -110px;
+	left: 750px;
+	opacity: .5;
+	position: absolute;
+	z-index: -1;
+}
+
+.general {
+	width: 870px;
+	height: 630px;
+	top: 135px;
+	left: 775px;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	line-height: 45px;
+	z-index: 0;
+}
+
+.bgbrain {
+	width: 110%;
+	top: 1225px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -2;
+}
+
+/* end of section two */
+/* section three */
+
+.title3 {
+	width: 1200px;
+	top: 50px;
+	left: 200px;
+	position: absolute;
+}
+
+.box3 {
+	width: 1460px;
+	top: -305px;
+	left: 100px;
+	opacity: .5;
+	position: absolute;
+	z-index: -1;
+}
+
+.effects {
+	width: 1200px;
+	top: 245px;
+	left: 200px;
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 45px;
+	z-index: 0;
+}
+
+.effectslist {
+	width: 500px;
+	top: 400px;
+	left: 275px;
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 45px;
+	z-index: 0;
+}
+
+.bullet1 {
+	width: 20px;
+	top: 410px;
+	left: 200px;
+	position: absolute;
+}
+
+.bullet2 {
+	width: 20px;
+	top: 500px;
+	left: 200px;
+	position: absolute;
+}
+
+.bullet3 {
+	width: 20px;
+	top: 590px;
+	left: 200px;
+	position: absolute;
+}
+
+.bullet4 {
+	width: 20px;
+	top: 680px;
+	left: 200px;
+	position: absolute;
+}
+
+.effectslist2 {
+	width: 500px;
+	top: 400px;
+	left: 1050px;
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 45px;
+	z-index: 0;
+}
+
+.bullet5 {
+	width: 20px;
+	top: 410px;
+	left: 975px;
+	position: absolute;
+}
+
+.bullet6 {
+	width: 20px;
+	top: 500px;
+	left: 975px;
+	position: absolute;
+}
+
+.bullet7 {
+	width: 20px;
+	top: 590px;
+	left: 975px;
+	position: absolute;
+}
+
+.bullet8 {
+	width: 20px;
+	top: 680px;
+	left: 975px;
+	position: absolute;
+}
+
+/* end of section two */
+/* section four/plus */
+
+.title4 {
+	width: 900px;
+	top: 50px;
+	left: 200px;
+	position: absolute;
+	z-index: 1;
+}
+
+.boynton {
+	width: 500px;
+	height: 315px;
+	top: 600px;
+	left: 75px;
+	background: url(../images/boynton.jpg) center;
+	background-size: 500px;
+	position: absolute;
+	border: 15px solid #E3D397;
+}
+
+.boynton:hover {
+	background: url(../images/boyntonbw.png) center;
+	background-size: 550px;
+}
+
+.scs {
+	width: 500px;
+	height: 315px;
+	top: 1085px;
+	right: 75px;
+	background: url(../images/scs.jpg) center;
+	background-size: 500px;
+	position: absolute;
+	border: 15px solid #E3D397;
+}
+
+.scs:hover {
+	background: url(../images/scsbw.png) center;
+	background-size: 550px;
+}
+
+.drc {
+	width: 500px;
+	height: 315px;
+	top: 1620px;
+	left: 75px;
+	background: url(../images/drc.jpg) center;
+	background-size: 500px;
+	position: absolute;
+	border: 15px solid #E3D397;
+	z-index: 1;
+}
+
+.drc:hover {
+	background: url(../images/drcbw.png) center;
+	background-size: 550px;
+}
+
+.resources {
+	width: 900px;
+	height: 630px;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	line-height: 45px;
+	z-index: 0;
+}
+
+.a {
+	top: 150px;
+	left: 675px;
+	position: absolute;
+}
+
+.b{
+	top: 600px;
+	left: 75px; 
+	position: absolute;
+}
+
+.c {
+	top: 1050px;
+	left: 675px;
+	position: absolute;
+	z-index: 1;
+}
+
+.bold {
+	color: #DC867B;
+	font-weight: bold;
+}
+
+.box4 {
+	height: 650px;
+	top: -460px;
+	left: 995px;
+	opacity: .5;
+	position: absolute;
+	z-index: -1;
+}
+
+.box5 {
+	height: 550px;
+	top: -20px;
+	left: -775px;
+	opacity: .5;
+	position: absolute;
+	z-index: -1;
+}
+
+/* end of section four/plus */
+/* section five */
+
+.title5 {
+	width: 900px;
+	top: -100px;
+	left: 200px;
+	position: absolute;
+}
+
+.fairview {
+	width: 450px;
+	height: 315px;
+	top: 785px;
+	left: 75px;
+	background: url(../images/fairview.jpg) center;
+	background-size: 500px;
+	position: absolute;
+	border: 15px solid #6CB4DD;
+}
+
+.fairview:hover {
+	background: url(../images/fairviewbw.png) center;
+	background-size: 550px;
+}
+
+.hcmc {
+	width: 450px;
+	height: 315px;
+	top: 1200px;
+	left: 75px;
+	background: url(../images/hcmc.jpg) center;
+	background-size: 500px;
+	position: absolute;
+	border: 15px solid #6CB4DD;
+}
+
+.hcmc:hover {
+	background: url(../images/hcmcbw.png) center;
+	background-size: 550px;
+}
+
+.hotline {
+	width: 450px;
+	height: 315px;
+	top: 1650px;
+	left: 75px;
+	background: url(../images/hotline.jpg) center;
+	background-size: 500px;
+	position: absolute;
+	border: 15px solid #6CB4DD;
+	z-index: 1;
+}
+
+.hotline:hover {
+	background: url(../images/hotlinebw.png) center;
+	background-size: 550px;
+}
+
+.d {
+	top: 50px;
+	left: 675px;
+	position: absolute;
+}
+
+.e {
+	top: 425px;
+	left: 675px;
+	position: absolute;
+}
+
+.f {
+	top: 800px;
+	left: 675px;
+	position: absolute;
+}
+
+.box6 {
+	width: 1650px;
+	top: -850px;
+	left: 175px;
+	opacity: .5;
+	position: absolute;
+	z-index: -1;
+}
+
+/* end of section five */
+/* section six */
+
+.title6 {
+	width: 1200px;
+	top: 375px;
+	left: 200px;
+	position: absolute;
+}
+
+.box7 {
+	width: 1460px;
+	top: -1635px;
+	left: 100px;
+	position: absolute;
+	opacity: .5;
+	z-index: -1;
+}
+
+.campaigns {
+	width: 1200px;
+	top: 505px;
+	left: 200px;
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 45px;
+	z-index: 0;
+}
+
+.stigmafree {
+	width: 300px;
+	height: 300px;
+	top: 1225px;
+	left: 100px;
+	background: url(../images/stigmafree.png) center;
+	background-size: 315px;
+	position: absolute;
+	border: 15px solid #DC867B;
+}
+
+.stigmafree:hover {
+	background: url(../images/stigmafreebw.png) center;
+	background-size: 365px;
+}
+
+.makeitok {
+	width: 300px;
+	height: 300px;
+	top: 1225px;
+	left: 475px;
+	background: url(../images/makeitok.png) center;
+	background-size: 315px;
+	position: absolute;
+	border: 15px solid #DC867B;
+}
+
+.makeitok:hover {
+	background: url(../images/makeitokbw.png) center;
+	background-size: 365px;
+}
+
+.realconvo {
+	width: 300px;
+	height: 300px;
+	top: 1225px;
+	left: 850px;
+	background: url(../images/realconvo.jpg) center;
+	background-size: 315px;
+	position: absolute;
+	border: 15px solid #DC867B;
+}
+
+.realconvo:hover {
+	background: url(../images/realconvobw.png) center;
+	background-size: 365px;
+}
+
+.idontmind {
+	width: 300px;
+	height: 300px;
+	top: 1225px;
+	left: 1225px;
+	background: url(../images/idontmind.jpg) center;
+	background-size: 315px;
+	position: absolute;
+	border: 15px solid #DC867B;
+}
+
+.idontmind:hover {
+	background: url(../images/idontmindbw.png) center;
+	background-size: 365px;
+}
+
+.bglight {
+	width: 1000px;
+	top: 450px;
+	position: absolute;
+	left: -225px;
+	z-index: -2;
+}
+
+.g {
+	top: 1100px;
+	width: 300px;
+	left: 115px;
+	position: absolute;
+}
+
+.h {
+	top: 1100px;
+	width: 300px;
+	left: 490px;
+	position: absolute;
+}
+
+.i {
+	top: 1100px;
+	width: 300px;
+	left: 865px;
+	position: absolute;
+}
+
+.j {
+	top: 1100px;
+	width: 300px;
+	left: 1240px;
+	position: absolute;
+}
+
+/* end of section six */
+/* footer */
+
+.footer {
+	width: 100%;
+	height: 60px;
+	bottom: 0px;
+	background: #0081CC;
+	position: absolute;
+	z-index: 2;
+}
+
+.credit {
+	padding-top: 25px;
+	padding-right: 35px;
+	text-align: right;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	color: white; 
+	position: relative;
+}
+
+/*animation keyframes*/
+
+@keyframes stat_fade {
+	0% {opacity: 0; top: 330px}
+	100% {opacity: 1; top:350px;}
+}
